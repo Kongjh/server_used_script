@@ -34,7 +34,7 @@ do
     ftitle=${f}${name}/
     cd ${ftitle}
 
-    time cutadapt -u 3 -a ${adapter} --discard-untrimmed -m 16 -o ${ftitle}cut_${name}.fastq ${f1} > report_cutadapt_${name}.txt
+    time cutadapt -u 3 -a ${adapter} --discard-untrimmed -m 16 -o ${ftitle}cut_${name}.fastq ${f1} #  > report_cutadapt_${name}.txt # 八 cut 的 repo 也直接输出，方便看
 #time cutadapt -a ${adapter} --discard-untrimmed -m 16 -o ${ftitle}cut_${name}.fastq ${f1} > report-cutadapt-${name}.txt
 #time bowtie2-build -f /Dell/Dell4/kongjh/ribo-seq/test/index/rna_coding.fasta rna 
     cd /Dell/Dell4/kongjh/gene-reference/SGD/index/

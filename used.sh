@@ -23,6 +23,9 @@ gzip -d OE-3-ribo_L1_A024.R1.clean.fastq.gz &
 unzip 8-2017.10.12.zip
 
 # git
+git init
+git config user.email "akjh2017@genetics.ac.cn"
+git config user.name "Kongjh"
 git add
 git diff
 git rm hhh license
@@ -40,7 +43,8 @@ ls -i
 find -inum 275387 -delete
 find -inum 275387 -exec mv {} hhh.txt \;
 th-p hhh.txt/
-
+fc-cache -f -v
+fc-list
 
 head -2 $temp1 $first
 wc -l $temp1 $first
