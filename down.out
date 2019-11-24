@@ -1,0 +1,28 @@
+
+2019-04-08T11:04:17 prefetch.2.8.2: 1) Downloading 'SRR948553'...
+2019-04-08T11:04:17 prefetch.2.8.2:  Downloading via https...
+2019-04-08T11:39:06 prefetch.2.8.2: 1) 'SRR948553' was downloaded successfully
+
+real	34m51.599s
+user	0m26.779s
+sys	0m10.597s
+
+2019-04-08T11:39:08 prefetch.2.8.2: 1) Downloading 'SRR948551'...
+2019-04-08T11:39:08 prefetch.2.8.2:  Downloading via https...
+2019-04-08T11:51:34 prefetch.2.8.2: 1) 'SRR948551' was downloaded successfully
+
+real	12m28.263s
+user	0m9.482s
+sys	0m3.619s
+Read 41214129 spots for /Dell/Dell4/kongjh/ncbi/public/sra/SRR948553.sra
+Written 41214129 spots for /Dell/Dell4/kongjh/ncbi/public/sra/SRR948553.sra
+
+real	2m52.351s
+user	2m46.574s
+sys	0m5.416s
+Read 15288245 spots for /Dell/Dell4/kongjh/ncbi/public/sra/SRR948551.sra
+Written 15288245 spots for /Dell/Dell4/kongjh/ncbi/public/sra/SRR948551.sra
+
+real	1m4.117s
+user	1m2.101s
+sys	0m1.954s

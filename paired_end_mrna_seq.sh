@@ -1,12 +1,12 @@
 #!/bin/bash
 
-namelist=(`cat /Dell/Dell4/kongjh/mrna_looped/gal1/namelist.txt`)
-filelist=(`cat /Dell/Dell4/kongjh/mrna_looped/gal1/filelist.txt`) # 先放R1 再放R2 跟下面的 f1 和 f2 有关
+namelist=(`cat /Dell/Dell4/kongjh/mrna_looped/mfs/namelist.txt`)
+filelist=(`cat /Dell/Dell4/kongjh/mrna_looped/mfs/filelist.txt`) # 先放R1 再放R2 跟下面的 f1 和 f2 有关
 
 for i in `seq 0 2`
 do
-    f="/Dell/Dell4/kongjh/mrna_looped/gal1/"
-    t="/Dell/Dell4/kongjh/mrna_looped/gal1/temp/"
+    f="/Dell/Dell4/kongjh/mrna_looped/mfs/"
+    t="/Dell/Dell4/kongjh/mrna_looped/mfs/temp/"
     name=${namelist[i]}
     f1=${filelist[i]}
     f2=${filelist[i+3]}
